@@ -1,0 +1,3 @@
+[submodule "rte-rrtmgp"]
+	path = rte-rrtmgp
+	url = https://github.com/earth-system-radiation/rte-rrtmgp.git
