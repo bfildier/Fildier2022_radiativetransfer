@@ -84,8 +84,9 @@ def calculateDensity(sonde):
 
     rho = mpcalc.density(sonde["play"], sonde["tlay"], sonde["mr"])
     
-    sonde["rho"] = (["play"], rho.magnitude)
-                  
+    # sonde["rho"] = (["play"], rho.magnitude)
+    sonde["rho"] = (["play"], rho.values)    
+           
     return sonde
 
 def calculateQrad(sonde):
